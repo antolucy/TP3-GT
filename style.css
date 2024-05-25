@@ -1,0 +1,184 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.barra-top {
+    padding-left: 25px;
+    background-color: white;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+}
+
+.barra-nav {
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 40, 63);
+    display: flex;
+    position: fixed;
+    top: 2;
+    left: 0;
+    right: 0;
+}
+
+.barra-nav li, .barra-nav a {
+    display: inline-block;
+    font-size: 18px;
+    color: aliceblue;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+}
+
+.barra-nav li, .barra-nav ul {
+    display: flex;
+    margin: 5px;
+    padding: 0;
+}
+
+.barra-nav a {
+    padding: 20px;  
+}
+
+.barra-nav a:hover {
+    background-color: black;
+    border-radius: 25px;
+}
+
+.principal-centrado {
+    margin-top: 13%;
+    text-align: center;
+}
+
+.h2-centrado {
+    text-align: center;
+}
+
+.imperio-fondorojo {
+    font-size: 1.4rem;
+    background-color: rgba(255, 0, 0, 0.3); 
+    padding: 4px;
+}
+
+#darthv-fontsize {
+    font-size: 1.4rem;
+}
+
+.rebeldes-fondoazul {
+    font-size: 1.4rem;
+    background-color: rgba(0, 0, 255, 0.3);
+    padding: 4px;
+}
+
+#lukes-italic {
+    font-style: italic;
+}
+
+.soldados {
+    border: 2px dashed black;
+    letter-spacing: 0.3em;
+}
+
+.apoyo {
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+.droides-centrados {
+    text-align: center;
+}
+
+.naves-m {
+    text-transform: uppercase;
+}
+
+.division {
+    border: 2px dotted;
+}
+
+/* Dinopark */
+
+.contenido-centrado {
+    padding-top: 11%;
+    text-align: center;
+}
+
+.barra-dinos {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(52, 167, 128);
+    display: flex;
+    margin: 0;
+}
+
+.barra-dinos li, .barra-dinos a {
+    display: inline-block;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    font-size: 18px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.barra-dinos a:hover {
+    color: rgb(128, 82, 82);
+}
+
+.carnivoros {
+    background-color: rgb(137, 25, 25);
+    margin: 0;
+}
+
+#t-rex {
+    font-size: 24px;
+    color: rgb(26, 255, 0);
+}
+
+.herbivoros {
+    background-color: rgb(118, 226, 118);
+}
+
+#triceratops {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.voladores {
+    text-shadow: rgb(100, 100, 100) 1px 2px;
+}
+
+.acuaticos {
+    font-style: italic;
+    color: blue;
+}
+
+.dinosaur-section h2 {
+    color: brown;
+}
+
+.atracciones-letterspacing {
+    font-size: 1.5rem;
+    letter-spacing: 0.3em;
+    border: 1px dashed;
+}
+
+.dinosaur-section li {
+    padding: 5px;
+    margin-left: 0;
+    list-style-type: none;
+
+}
+
+.dinosaur-section p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+footer {
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
